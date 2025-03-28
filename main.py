@@ -6,12 +6,12 @@ from game import Game
 
 WINDOW_WIDTH = 640
 WINDOW_HEIGHT = 480
-FONT_PATH = "assets/ndsbios_memesbruh03.ttf"
+FONT_PATH = "assets/ndsbios.ttf"
 FONT_SIZE = 16
 
 def main():
     pygame.init()
-    theme = get_theme("sunset") 
+    theme = get_theme("neon") 
     game = Game(WINDOW_WIDTH, WINDOW_HEIGHT, theme)
     game.update_theme()
     screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
